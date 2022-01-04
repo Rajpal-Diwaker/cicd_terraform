@@ -52,8 +52,8 @@ jobs:
         with:
           name: tf_plan
           path: ./setup/tf_plan
-          if-no-files-found: error
-          retention-days: 1
+          # if-no-files-found: error
+          # retention-days: 1
 
   terraform_apply:
     name: 'Terraform Apply'
