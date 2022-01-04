@@ -116,6 +116,6 @@ jobs:
         SLACK_CHANNEL: captain-alert
         SLACK_COLOR: ${{ needs.terraform_plan.result }}
         SLACK_TITLE: ${{ github.repository }}
-        # SLACK_MESSAGE: ${{ github.event.head_commit.message }}
-        # SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        # SLACK_FOOTER: 'Terraform Github Actions Feature Branch Push Alert'
+        SLACK_MESSAGE: ${{ github.event.head_commit.message }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_FOOTER: 'Terraform Github Actions Feature Branch Push Alert'
