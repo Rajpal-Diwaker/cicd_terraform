@@ -17,8 +17,8 @@ module "GCE" {
   network_tags     = ["http-server", "https-server"]
 }
 
-module "IAM" {
-  source           = "../modules/iam"
-  suffix           = local.suffix
-  gcp_project_id   = var.gcp_project_id
-}
+#module "IAM" {
+#  source           = "../modules/iam"
+#  suffix           = local.suffix
+#  gcp_project_id   = var.gcp_project_id
+#}
