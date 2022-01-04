@@ -81,7 +81,7 @@ jobs:
         name: tf_plan
         path: ./examples
 
-    # Provision resources via Terraform        
+    # Provision         
     - name: Terraform Apply
       run: |
         chmod +x "${GITHUB_WORKSPACE}/.github/workflows/tf_init.sh"
