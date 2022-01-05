@@ -1,6 +1,6 @@
-# exit if any of the commands fails
+# exit if any of the commands failsk
 set -o errexit
 
-# initialization of terraform
+# initialization of terraformkk
 terraform init
 terraform get
