@@ -9,5 +9,11 @@ Follow Medium blog for steps: [Automating Terraform with GitHub Actions](https:/
 * GCS bucket is serving as terraform backend.
 * Workflow offers concurrency which means only one workflow can be run at a time; I’ve done this to prevent our terraform state from locking and getting corrupted.
 * GitHub secrets are being used to pass GCP Service Account credentials safely on runtime.
-
-
+fghdfh
+fdgdfg
+zfsdfdfgfddfhfdh
+dfg
+dfh
+gh
+fg
+h
